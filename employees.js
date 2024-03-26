@@ -24,4 +24,5 @@ var employeeCountsByLocation = {
     "SC": { people: 1, center: { lat: 33.8361, lng: -81.1637 } },
     "MI": { people: 1, center: { lat: 44.3148, lng: -85.6024 } },
     "NV": { people: 1, center: { lat: 38.8026, lng: -116.4194 } },
+    "OR": { people: 1, center: { lat: 43.8041, lng: -120.5542 } },
 };
