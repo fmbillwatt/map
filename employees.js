@@ -17,7 +17,7 @@ var employeeCountsByLocation = {
     "Netherlands": { people: 1, center: { lat: 52.1326, lng: 5.2913 } },
     "Ireland": { people: 1, center: { lat: 53.1424, lng: -7.6921 } },
     "Sweden": { people: 1, center: { lat: 60.1282, lng: 18.6435 } },
-    "AR": { people: 1, center: { lat: 34.0489, lng: -111.0937 } },
+    "AR": { people: 1, center: { lat: 35.2010, lng: -91.8318 } }, 
     "GA": { people: 2, center: { lat: 32.1656, lng: -82.9001 } },
     "MA": { people: 1, center: { lat: 42.4072, lng: -71.3824 } },
     "NJ": { people: 1, center: { lat: 40.0583, lng: -74.4057 } },
