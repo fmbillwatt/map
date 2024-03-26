@@ -15,6 +15,6 @@ var employeeCountsByLocation = {
     "WA": { people: 5, center: { lat: 47.7511, lng: -120.7401 } },
     "Washington, DC": { people: 1, center: { lat: 38.9072, lng: -77.0369 } },
     "Portugal": { people: 1, center: { lat: 39.3999, lng: -8.2245 } },
-    "Netherlands": { people: 1, center: { lat: 52.1326, lng: -5.2913 } },
+    "Netherlands": { people: 1, center: { lat: 52.1326, lng: 5.2913 } },
     "Ireland": { people: 1, center: { lat: 53.1424, lng: -7.6921 } }
 };
