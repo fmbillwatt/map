@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomalo IRL</title>
+
+    <!-- Preconnect hints for font optimization -->
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+
+    <!-- Link to the Google Font you want to use -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Your other styles and scripts -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+      <h1>Anomalo in the Real World</h1>
+      <p>An overview of our company onsites, team onsites, and where the team calls home!</p>
+      <label>
+          <input type="radio" id="allOnsitesCheckbox" checked onchange="toggleDisplay('all')"> All Onsites
+      </label>
+      <label>
+          <input type="checkbox" id="companyCheckbox" onchange="toggleDisplay('company')"> Company Onsites
+      </label>
+      <label>
+          <input type="checkbox" id="teamCheckbox" onchange="toggleDisplay('team')"> Team Onsites
+      </label>
+      <label>
+          <input type="radio" id="employeeCheckbox" onchange="toggleDisplay('employee')"> Employee Locations
+      </label>
+      <div class="legend">
+        <div>
+            <span class="dot" style="background-color: blue;"></span> Past Event
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div>
+            <span class="dot" style="background-color: green;"></span> Future Event
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div>
+            <span class="dot" style="background-color: orange;"></span> Regional Employees
+        </div>
+      </div>
+  </div>
+
+
+
+    <div id="map"></div>
+    <script src="employees.js"></script>
+    <script src="placesData.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChrz_exMLlhRDW-cx9Fx6L6U6AdkU8Bo4&callback=initMap" async defer></script>
+</body>
+</html>
